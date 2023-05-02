@@ -1,4 +1,4 @@
-public class G implements H {
+public class G extends null implements H {
 
     private byte d = 1;
 
@@ -38,5 +38,33 @@ public class G implements H {
 
     public Object rr() {
         return null;
+    }
+
+    public void aa() {
+        System.out.println("Hello world!");
+    }
+
+    public int ae() {
+        return 9;
+    }
+
+    public long ac() {
+        return 222;
+    }
+
+    public Object pp() {
+        return this;
+    }
+
+    public long dd() {
+        return 99999;
+    }
+
+    public String kk() {
+        return "Yes";
+    }
+
+    public int[] ii() {
+        return new int[]{4, 3, 2, 1};
     }
 }

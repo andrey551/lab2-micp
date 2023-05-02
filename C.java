@@ -1,4 +1,4 @@
-public class C implements H, F {
+public class C extends null implements H, F {
 
     private byte k = 1;
 
@@ -28,6 +28,14 @@ public class C implements H, F {
         return 0.000001;
     }
 
+    public int hh() {
+        return new java.util.Random().nextInt();
+    }
+
+    public java.lang.Class qq() {
+        return getClass();
+    }
+
     public java.util.Random mm() {
         return new java.util.Random();
     }
@@ -36,15 +44,39 @@ public class C implements H, F {
         return 333;
     }
 
-    public int hh() {
-        return new java.util.Random(10).nextInt(10);
-    }
-
     public Object rr() {
         return null;
     }
 
-    public java.lang.Class qq() {
-        return getClass();
+    public byte oo() {
+        return 1;
+    }
+
+    public long dd() {
+        return 33;
+    }
+
+    public java.util.Set<Integer> ll() {
+        return new java.util.HashSet<Integer>;
+    }
+
+    public double ad() {
+        return 11.09;
+    }
+
+    public int ae() {
+        return 9;
+    }
+
+    public void bb() {
+        System.out.println(42);
+    }
+
+    public int af() {
+        return -1;
+    }
+
+    public void ab() {
+        return;
     }
 }
