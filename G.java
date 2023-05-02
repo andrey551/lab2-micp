@@ -1,4 +1,4 @@
-public class G implements H {
+public class G extends null implements H {
 
     private byte d = 1;
 
@@ -38,5 +38,13 @@ public class G implements H {
 
     public Object rr() {
         return null;
+    }
+
+    public void aa() {
+        System.out.println("Hello world!");
+    }
+
+    public int ae() {
+        return 9;
     }
 }
