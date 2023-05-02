@@ -43,4 +43,8 @@ public class C implements H, F {
     public Object rr() {
         return null;
     }
+
+    public java.lang.Class qq() {
+        return getClass();
+    }
 }
