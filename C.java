@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 public class C extends null implements H, F {
+=======
+public class C implements H, F {
+>>>>>>> origin/br3
 
     private byte k = 1;
 
@@ -28,35 +32,15 @@ public class C extends null implements H, F {
         return 0.000001;
     }
 
-    public int hh() {
-        return new java.util.Random().nextInt();
+    public long ac() {
+        return 333;
     }
 
     public java.util.Random mm() {
         return new java.util.Random();
     }
 
-    public long ac() {
-        return 333;
-    }
-
-    public Object rr() {
-        return null;
-    }
-
-    public java.lang.Class qq() {
-        return getClass();
-    }
-
-    public byte oo() {
-        return 1;
-    }
-
-    public long dd() {
-        return 33;
-    }
-
-    public java.util.Set<Integer> ll() {
-        return new java.util.HashSet<Integer>;
+    public void bb() {
+        System.out.println(42);
     }
 }

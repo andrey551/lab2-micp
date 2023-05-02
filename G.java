@@ -28,23 +28,11 @@ public class G extends null implements H {
         return "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++";
     }
 
-    public void bb() {
-        System.out.println(42);
-    }
-
-    public java.lang.Class qq() {
-        return getClass();
+    public int hh() {
+        return new java.util.Random(10).nextInt(10);
     }
 
     public Object rr() {
         return null;
-    }
-
-    public void aa() {
-        System.out.println("Hello world!");
-    }
-
-    public int ae() {
-        return 9;
     }
 }
