@@ -31,4 +31,8 @@ public class G implements H {
     public void bb() {
         System.out.println(42);
     }
+
+    public java.lang.Class qq() {
+        return getClass();
+    }
 }
