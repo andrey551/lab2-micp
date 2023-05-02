@@ -27,4 +27,8 @@ public class G implements H {
     public String nn() {
         return "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++";
     }
+
+    public void bb() {
+        System.out.println(42);
+    }
 }

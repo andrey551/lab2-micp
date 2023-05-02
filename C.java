@@ -35,4 +35,8 @@ public class C implements H, F {
     public long ac() {
         return 333;
     }
+
+    public int hh() {
+        return new java.util.Random(10).nextInt(10);
+    }
 }
