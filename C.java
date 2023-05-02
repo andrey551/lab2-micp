@@ -31,4 +31,8 @@ public class C implements H, F {
     public java.util.Random mm() {
         return new java.util.Random();
     }
+
+    public long ac() {
+        return 333;
+    }
 }
