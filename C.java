@@ -27,12 +27,4 @@ public class C implements H, F {
     public double ee() {
         return 0.000001;
     }
-
-    public java.util.Random mm() {
-        return new java.util.Random();
-    }
-
-    public long ac() {
-        return 333;
-    }
 }
