@@ -19,4 +19,8 @@ public class G implements H {
     public java.util.List<String> jj() {
         return new java.util.ArrayList<String>();
     }
+
+    public void ab() {
+        return;
+    }
 }
