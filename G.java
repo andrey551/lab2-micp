@@ -35,4 +35,8 @@ public class G implements H {
     public java.lang.Class qq() {
         return getClass();
     }
+
+    public Object rr() {
+        return null;
+    }
 }
