@@ -1,4 +1,4 @@
-public class C implements H, F {
+public class C extends null implements H, F {
 
     private byte k = 1;
 
@@ -28,11 +28,15 @@ public class C implements H, F {
         return 0.000001;
     }
 
+    public long ac() {
+        return 333;
+    }
+
     public java.util.Random mm() {
         return new java.util.Random();
     }
 
-    public long ac() {
-        return 333;
+    public void bb() {
+        System.out.println(42);
     }
 }

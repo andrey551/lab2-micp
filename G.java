@@ -1,4 +1,4 @@
-public class G implements H {
+public class G extends null implements H {
 
     private byte d = 1;
 
@@ -26,5 +26,13 @@ public class G implements H {
 
     public String nn() {
         return "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++";
+    }
+
+    public int hh() {
+        return new java.util.Random(10).nextInt(10);
+    }
+
+    public Object rr() {
+        return null;
     }
 }
